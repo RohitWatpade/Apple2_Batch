@@ -3,12 +3,12 @@ package Interface;
 interface Mobile
 {
 	void calling(int call);
-	void Messaging(String messege) ;
-	void Fm(String fm);
-	void Ram(String  ram);
-	void Calcalator(int calculator);
-	void Calender(String calender);
-	void Battery(int battery);
+	void messaging(String messege) ;
+	void fm(String fm);
+	void ram(String ram);
+	void calcalator(int calculator);
+	void calender(String calender);
+	void battery(int battery);
 	
 }
 public class NormalMobile implements Mobile {
@@ -18,32 +18,32 @@ public class NormalMobile implements Mobile {
 			
 		}
 
-		public void Messaging(String messege) {
+		public void messaging(String messege) {
 			System.out.println(messege+ " Everyone");
 			
 		}
 
-		public void Fm(String fm) {
+		public void fm(String fm) {
 			System.out.println(fm+" Fm and poor network");
 			
 		}
 
-		public void Ram(String ram) {
+		public void ram(String ram) {
 			System.out.println("Normal Mobilr Ram is "+ram);
 			
 		}
 
-		public void Calcalator(int calculator) {
+		public void calcalator(int calculator) {
 			System.out.println("Normal mobile use only normal calculator + - * / "+calculator);
 			
 		}
 
-		public void Calender(String calender) {
+		public void calender(String calender) {
 		System.out.println("Normal Mobile not show the Festival"+calender);
 			
 		}
 
-		public void Battery(int battery) {
+		public void battery(int battery) {
 			System.out.println("Normal mobile Battery Capacity "+battery);
 			
 		}
