@@ -32,7 +32,14 @@ public class Calculator {
 			System.out.println("Enter a two numbers : ");
 			a=sc.nextInt();
 			b=sc.nextInt();
-			System.out.println("Addition is : " +(a/b));
+			System.out.println("Multiplication is : " +(a*b));
+			
+		case 4:
+			System.out.println("Enter a two numbers : ");
+			a=sc.nextInt();
+			b=sc.nextInt();
+			System.out.println("Division is : " +(a/b));
+			
 			
 			sc.close();
 		}
