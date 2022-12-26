@@ -1,10 +1,10 @@
-package deo;
+package com.dao;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-import pojo.Employee;
-import pojo.Student;
+import com.pojo1.Employee;
+import com.pojo1.Student;
 
 public class StudentOperation {
 	
