@@ -1,38 +1,56 @@
 package com.pojo;
 
+
 public class BookL {
 
-	int id;
-		String name,author,copyno;
-		
-		public int getId() {
-			return id;
-		}
-		public void setId(int id) {
-			this.id = id;
-		}
-		public String getName() {
-			return name;
-		}
-		public void setName(String name) {
-			this.name = name;
-		}
-		public String getAuthor() {
-			return author;
-		}
-		public void setAuthor(String author) {
-			this.author = author;
-		}
-		public String getCopyno() {
-			return copyno;
-		}
-		public void setCopyno(String copyno) {
-			this.copyno = copyno;
-		}
-		
-		
+	int id, noCopy;
+	String bName, authorName;
+
+	public BookL() {}
+
+	public BookL(int id, int noCopy, String bName, String authorName)
+	{
+		this.id = id;
+		this.noCopy = noCopy;
+		this.bName = bName;
+		this.authorName = authorName;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getNoCopy() {
+		return noCopy;
+	}
+
+	public void setNoCopy(int noCopy) {
+		this.noCopy = noCopy;
+	}
+
+	public String getBName() {
+		return bName;
+	}
+
+	public void setBName(String bName) {
+		this.bName = bName;
+	}
+
+	public String getAuthorName() {
+		return authorName;
+	}
+
+	public void setAuthorName(String authorName) {
+		this.authorName = authorName;
+	}
+
 	@Override
 	public String toString() {
-		return "BookL [id=" + id + ", name=" + name + ", author=" + author + ", copyno=" + copyno + "]";
+		return "Student [id=" + id + ", noCopy=" + noCopy + ", name=" + bName + ", authorName=" + authorName + "]";
 	}
+
 }

@@ -1,4 +1,4 @@
-package com.dao;
+/*package com.dao;
 
 import java.awt.print.Book;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ public class LibraryL {
 	
 	BookL b[]=new BookL[5];
 	
-	TransactionL t[]=new TransactionL(5);
+	TransactionL t=new TransactionL(5);
 	int count=0;
 	
 	Scanner sc=new Scanner (System.in);
@@ -19,3 +19,4 @@ public class LibraryL {
 		b[0]=new BookL(101,"Secrets of wid India","Kalyan verma",3);
 	}
 }
+*/

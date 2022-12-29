@@ -2,7 +2,7 @@ package ClassesAndObject2;
 
 import java.util.Scanner;
 // Reference variable and Instance variable
-public class Student1 {
+public class StudentL {
 	
 	int id,marks;
 	String name,dept;
@@ -92,7 +92,7 @@ public class Student1 {
 			System.out.println("Enter the marks|: ");
 			int m=sc.nextInt();
 			
-			Student1 s=new Student1();
+			StudentL s=new StudentL();
 			s.setDate(id, name, dept, m);
 			s.display();
 		}

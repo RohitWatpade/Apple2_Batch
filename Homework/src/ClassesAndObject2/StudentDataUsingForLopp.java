@@ -39,7 +39,7 @@ public class StudentDataUsingForLopp {
 			System.out.println("Enter the marks|: ");
 			int m=sc.nextInt();
 			
-			Student1 s=new Student1();
+			StudentL s=new StudentL();
 			s.setDate(id, name, dept, m);
 			s.display();
 		}
